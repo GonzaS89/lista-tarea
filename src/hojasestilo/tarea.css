@@ -1,0 +1,31 @@
+.tarea-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 60px;
+    background-color: rgb(5, 28, 105);
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+
+.tarea-contenedor.completada {
+    text-decoration: line-through;
+    background-color: rgb(105, 5, 105);
+}
+
+.tarea-contenedor-iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarea-icono{
+    width: 30px;
+    height: 30px;
+}
