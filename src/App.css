@@ -21,3 +21,10 @@
   border-radius: 30px;
 }
 
+.titulo-tareas{
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
