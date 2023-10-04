@@ -13,7 +13,7 @@
 
 .tareas-contenedor{
   width: 500px;
-  height: 500px;
+  min-height: 500px;
   background-color: beige;
   display: flex;
   flex-direction: column;
